@@ -1,0 +1,41 @@
+* { padding: 0; margin: 0; list-style-type: none; }
+
+.cf	{ clear: both; }
+
+a { color: white ; text-decoration: none; }
+
+body { font-family: 'Amaranth', sans-serif; }
+
+.container { max-width: 1280px; margin: 20px auto; background-color: white; }
+
+.container .block1  { background-color: black; border-bottom: 5px solid #FBDC3C; }
+.container .block1 .block1-left { font-size: 20px; color: white; padding: 15px 125px 10px 20px;  float: left; }
+.container .block1 .block1-right .selected { text-transform: uppercase; padding-left: 140px; }
+.container .block1 .block1-right .select { text-transform: uppercase; }
+.container .block1 .block1-right nav ul li  { font-size: 20px;  display: inline-block; padding: 30px 2px 20px 30px; }
+
+.container .block2 .block2-Heading { font-family: 'Rokkitt', serif; text-align: center; font-size: 30px; font-weight: normal;  color: black; background-color: lightgray; padding: 20px 20px; font-style: italic; }
+.container .block2 .block2-right { background-image: url('coworking.jpg'); height: 660px; width: 1280px; border: 1px solid black; }
+.container .block2 .block2-Right { float: right; width: 550px; background-color: rgba(255,255,255,0.3); border: 2px solid black;  margin-top: 185px; margin-right: 40px; margin-left: 90px;    }
+.container .block2 .block2-Right .block2-1 { padding-left: 50px; padding-top: 40px; padding-bottom: 20px;  font-size: 30px; }
+.container .block2 .block2-Right p { padding-left: 50px;  font-size: 25px; padding-right: 20px; }
+.container .block2 .block2-Right .block2-2 {  font-size: 25px; background-color: red; padding: 20px; color: white;  text-align: center; margin: 40px;  }
+
+.container .block3 { font-family: 'Enriqueta', serif; }
+.container .block3 .block3-left { float: left; width: 395px; padding: 30px 15px; border-right: 1px solid black; margin-top: 10px;  }
+.container .block3 .block3-left h3 { font-size: 25px;  padding-bottom: 10px;  }
+.container .block3 .block3-left p { font-size: 20px; padding-bottom: 20px; font-weight: normal; }
+.container .block3 .block3-left .background { padding: 20px; background-color: lightgray; text-align: center; }
+.container .block3 .block3-center { float: left; width: 395px; padding: 30px 15px; border-right: 1px solid black;margin-top: 10px;  }
+.container .block3 .block3-center h3 { font-size: 25px;  padding-bottom: 10px; }
+.container .block3 .block3-center p { font-size: 20px; padding-bottom: 20px; font-weight: normal; }
+.container .block3 .block3-center .background { padding: 20px; background-color: lightgray; text-align: center; }
+.container .block3 .block3-right { float: left; width: 395px; padding: 30px 16px; margin-top: 10px; }
+.container .block3 .block3-right h3 { font-size: 25px; padding-bottom: 10px; }
+.container .block3 .block3-right p { font-size: 20px; padding-bottom: 20px; font-weight: normal; }
+.container .block3 .block3-right .background { padding: 20px; background-color: lightgray; text-align: center; }
+
+.container footer { font-family: 'Open Sans', sans-serif; padding-left: 40px; padding-top: 20px; padding-bottom: 20px; background-color: #060606; color: white; font-size: 25px; font-style: arial; font-weight: normal; margin-top: 10px;  }
+
+
+
